@@ -64,6 +64,7 @@ while True:
     print("Tekrar oynamak ister misiniz?")
     yndn = str(input("Y/N: "))
     if yndn == "Y" or yndn == "y":
+        yzCevap = cevaplar[randd.randint(0,2)]
         tasKagitMakas()
     elif yndn == "N" or yndn == "n":
         print("Görüşürüz!")
